@@ -30,15 +30,15 @@ Include the javascript part:
 
 For Coffeescript
 
-    #= require 'jquery.icheck'
+    #= require jquery.icheck
 
 For JavaScript
 
-    //= require 'jquery.icheck'
+    //= require jquery.icheck
 
 or if you want to use Zepto
 
-    //= require 'zepto.icheck'
+    //= require zepto.icheck
 
 Be sure to include JQuery or Zepto before requiring iCheck.
 
@@ -46,16 +46,16 @@ Include the style part:
 
 iCheck includes several skins, most of them with multiple color schemes. Include them like this:
 
-    @import 'icheck/square/blue'
-    @import 'icheck/square/green'
+    *= require icheck/square/blue
+    *= require icheck/square/green
 
 or
 
-    @import 'icheck/square/_all' //includes all color schemes
+    *= require  icheck/square/_all //includes all color schemes
 
 Some skins don't have multiple color schemes. Include them like this:
 
-    @import 'icheck/futurico/futurico'
+    *= require  icheck/futurico/futurico
 
 Then use markup like this:
 
